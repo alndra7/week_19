@@ -18,8 +18,8 @@ button.onclick = function (e) {
         body: JSON.stringify(post),
         headers: {
             'Content-type': 'application/json; charset=UTF-8',
-  },
-})
+        },
+    })
 .then(res => res.json())
 .then(post => {
     console.log(post);
